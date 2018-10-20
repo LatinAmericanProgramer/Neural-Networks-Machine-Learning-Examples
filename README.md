@@ -20,7 +20,7 @@ Before starting the training process of this SOM, their neurons (Fig. 2, blue po
 ![image](https://user-images.githubusercontent.com/15948497/47254471-bb3e4200-d428-11e8-85c3-b1b68948439a.png)
 Figure 2.
 
-After the training process the neurons of the SOM have learn to represent the topology of the input space as shown in (Fig. 3, blue points)
+After giving the input space to the SOM 500 times, the neurons have learn to represent the topology of the input space as shown in (Fig. 3, blue points)
 
 ![image](https://user-images.githubusercontent.com/15948497/47254677-29840400-d42b-11e8-971c-67adeb52351d.png)
 Figure 3.

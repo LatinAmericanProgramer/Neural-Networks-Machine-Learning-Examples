@@ -8,16 +8,38 @@ The codes were written in Matlab R2015a. I will try to create the Python version
 
 ## Description of files:
 
+### Perceptron_v2 - Double Moon Clasification Problem
+
+This is a common academic problem in which the objective is to classify two different types of datasets as shown in (Fig. 1). This moons are set at distance equal to one.
+
+![image](https://user-images.githubusercontent.com/15948497/47255995-5a216900-d43e-11e8-924a-fdae78314d49.png)
+
+Figure 1.
+
+Before training, the perceptron can not achieve the separation of this two datasets with its boundary line (Fig. 2)
+
+![image](https://user-images.githubusercontent.com/15948497/47256152-c309e080-d440-11e8-9c45-91fe222067b7.png)
+
+Figure 2.
+
+After training, this perceptron is able to separate the input space as its shown in the boundary line (Fig. 3)
+
+![image](https://user-images.githubusercontent.com/15948497/47256203-7bd01f80-d441-11e8-806d-7a05b4933862.png)
+
+Figure 3.
+
 ### SOM_v1.m - Self Organized Map
 
 This example shows the Self Organized Map or SOM neural network in action. In summary, this type of ANN is trained using Unsupervise Learning to generate a representation of an input space, in this case a two dimensional equilateral tiangle (Fig. 1.).
 
 ![image](https://user-images.githubusercontent.com/15948497/47254783-381eeb00-d42c-11e8-8109-7d9229022640.png)
+
 Figure 1.
 
 Before starting the training process of this SOM, their neurons (Fig. 2, blue points) occupy a random position compared with the input space (Fig. 2, red points)
 
 ![image](https://user-images.githubusercontent.com/15948497/47254471-bb3e4200-d428-11e8-85c3-b1b68948439a.png)
+
 Figure 2.
 
 After giving the input space to the SOM 500 times, the neurons have learn to represent the topology of the input space as shown in (Fig. 3, blue points)
@@ -38,4 +60,5 @@ Figure 1.
 The outcome of this network after training is to approximate its hidden neurons (also called centroids) to the input space as shown in (Fig. 2)
 
 ![image](https://user-images.githubusercontent.com/15948497/47255855-568ce280-d43c-11e8-9204-f231b283e6ab.png)
+
 Figure 2.

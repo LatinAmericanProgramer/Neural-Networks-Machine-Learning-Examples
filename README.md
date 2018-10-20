@@ -24,3 +24,18 @@ After giving the input space to the SOM 500 times, the neurons have learn to rep
 
 ![image](https://user-images.githubusercontent.com/15948497/47254677-29840400-d42b-11e8-971c-67adeb52351d.png)
 Figure 3.
+
+### RBF_v1.m - Radial Basis Function Network
+
+The RBF or Radial Basis Function Neural Network is a type of NN which structure is composed by one hidden layer of neurons with radial (gaussean) activation function, and an output layer  with neurons that performs lineal activation functions. 
+
+This type of neural network is tipically used for an interpolation approach. In this example we have an input space with four stablish categories (Fig. 1.)
+
+![image](https://user-images.githubusercontent.com/15948497/47255801-d23a5f80-d43b-11e8-9dde-ea99b7201451.png)
+
+Figure 1.
+
+The outcome of this network after training is to approximate its hidden neurons (also called centroids) to the input space as shown in (Fig. 2)
+
+![image](https://user-images.githubusercontent.com/15948497/47255855-568ce280-d43c-11e8-9204-f231b283e6ab.png)
+Figure 2.
